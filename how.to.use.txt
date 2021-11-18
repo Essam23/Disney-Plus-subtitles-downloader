@@ -26,11 +26,20 @@ or use
 
 disneyplus.py --url https://www.disneyplus.com/es-es/series/loki/6pARMvILBGzF -s 1 -e 1 -q 720 
 
-and the script will download the video with all the available audio languages and subtitles, 720p is the maximum resolution that could be decrypted using this script, you could use -q 720 or -q 480.
+and the script will download the video with all the available audio languages and subtitles,
+720p is the maximum resolution that could be decrypted using this script, you could use -q 720 or -q 480.
 
 For downloading the video with the audio and subtitles for a season use
 
 disneyplus.py --url https://www.disneyplus.com/es-es/series/loki/6pARMvILBGzF -s 1 -e 1 --all-season -q 720 --alang eng --slang eng --flang eng
+
+For setting the default subtitle language use
+
+disneyplus.py --url https://www.disneyplus.com/es-es/series/loki/6pARMvILBGzF -s 1 -e 1 --default-sub-mux eng
+
+For setting the default audio language use
+
+disneyplus.py --url https://www.disneyplus.com/es-es/series/loki/6pARMvILBGzF -s 1 -e 1 --default-audio-mux eng
 
 The downloads will be saved in the folder "Downloads".
 
@@ -55,10 +64,6 @@ For downloading the subtitles of all the seasons use
 disneyplus.py --nv --na --all-season --keep --url https://www.disneyplus.com/es-es/series/the-mandalorian/3jLIGMDYINqD -s 1 -e 1 --slang eng --flang eng
 disneyplus.py --nv --na --all-season --keep --url https://www.disneyplus.com/es-es/series/the-mandalorian/3jLIGMDYINqD -s 2 -e 1 --slang eng --flang eng
 
-For setting the default subtitle language use
-
-disneyplus.py --nv --ns --keep --url https://www.disneyplus.com/es-es/series/loki/6pARMvILBGzF -s 1 -e 1 --default-sub-mux eng
-
 
 c. download.audio.bat
 
@@ -74,8 +79,7 @@ For downloading the audio in 2 channels only use
 
 disneyplus.py --nv --ns --keep --url https://www.disneyplus.com/es-es/series/loki/6pARMvILBGzF -s 1 -e 1 --alang eng --only-2ch-audio
 
-For setting the default audio language use
-
-disneyplus.py --nv --ns --keep --url https://www.disneyplus.com/es-es/series/loki/6pARMvILBGzF -s 1 -e 1 --default-audio-mux eng
-
 This script may not work with some TV shows.
+
+
+
