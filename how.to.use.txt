@@ -83,7 +83,11 @@ For downloading the audio in 2 channels only use
 
 disneyplus.py --nv --ns --keep --url https://www.disneyplus.com/es-es/series/loki/6pARMvILBGzF -s 1 -e 1 --alang eng --only-2ch-audio
 
+
+
+Replace US in the these lines with your country code, for example for France replace "region/US" with "region/FR".
+
+https://github.com/Essam3152/DSNP/blob/main/pydisney/disneyplus_api.py#L22-L26
+
 This script may not work with some TV shows.
-
-
 
