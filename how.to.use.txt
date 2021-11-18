@@ -59,6 +59,10 @@ To download the subtitles in multiple languages use
 
 disneyplus.py --nv --na --keep --url https://www.disneyplus.com/es-es/series/loki/6pARMvILBGzF -s 1 -e 1 --slang eng spa jpn --flang eng
 
+Language codes
+
+https://github.com/Essam3152/Disney-Plus-video-downloader/blob/main/pydisney/disneyplus_muxer.py#L105-L191
+
 For downloading the subtitles of all the seasons use
 
 disneyplus.py --nv --na --all-season --keep --url https://www.disneyplus.com/es-es/series/the-mandalorian/3jLIGMDYINqD -s 1 -e 1 --slang eng --flang eng
