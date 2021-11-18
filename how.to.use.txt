@@ -4,13 +4,7 @@ https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe
 
 https://datatofish.com/add-python-to-windows-path/
 
-2. Install the dependencies by using this command
-
-pip install -r requirements.txt
-
-or run
-
-install.requirements.bat
+2. Run install.requirements.bat
 
 3. Open dsnp.cfg with notepad and add your email and password
 
