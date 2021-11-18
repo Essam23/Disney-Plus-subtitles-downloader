@@ -19,11 +19,11 @@ class DSNP(object):
 			self.Season = Season
 
 		self.api = {
-			'DmcSeriesBundle': 'https://disney.content.edge.bamgrid.com/svc/content/DmcSeriesBundle/version/5.1/region/GB/audience/false/maturity/1850/language/en/encodedSeriesId/{video_id}',
+			'DmcSeriesBundle': 'https://disney.content.edge.bamgrid.com/svc/content/DmcSeriesBundle/version/5.1/region/US/audience/false/maturity/1850/language/en/encodedSeriesId/{video_id}',
 
-			'DmcEpisodes': 'https://disney.content.edge.bamgrid.com/svc/content/DmcEpisodes/version/5.1/region/GB/audience/false/maturity/1850/language/en/seasonId/{season_id}/pageSize/30/page/1',
+			'DmcEpisodes': 'https://disney.content.edge.bamgrid.com/svc/content/DmcEpisodes/version/5.1/region/US/audience/false/maturity/1850/language/en/seasonId/{season_id}/pageSize/30/page/1',
 
-   			'DmcVideo': 'https://disney.content.edge.bamgrid.com/svc/content/DmcVideoBundle/version/5.1/region/GB/audience/false/maturity/1850/language/en/encodedFamilyId/{family_id}',
+   			'DmcVideo': 'https://disney.content.edge.bamgrid.com/svc/content/DmcVideoBundle/version/5.1/region/US/audience/false/maturity/1850/language/en/encodedFamilyId/{family_id}',
 
 			'LicenseServer': 'https://edge.bamgrid.com/widevine/v1/obtain-license',
 			'manifest': 'https://us.edge.bamgrid.com/media/{mediaid}/scenarios/{scenarios}'
