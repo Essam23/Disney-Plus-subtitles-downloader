@@ -86,5 +86,8 @@ Replace US in the these lines with your country code, for example for France rep
 
 https://github.com/Essam3152/DSNP/blob/main/pydisney/disneyplus_api.py#L22-L26
 
+If you changed the country IP using a VPN delete the file token.ini before starting to download the video, 
+and change the country code in disneyplus_api.py.
+
 This script may not work with some TV shows.
 
