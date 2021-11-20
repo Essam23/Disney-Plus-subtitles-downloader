@@ -82,7 +82,7 @@ disneyplus.py --nv --ns --keep --url https://www.disneyplus.com/es-es/series/lok
 
 
 
-Replace US in the these lines with your country code, for example for France replace "region/US" with "region/FR".
+Replace US in these lines with your country code, for example for France replace "region/US" with "region/FR".
 
 https://github.com/Essam3152/DSNP/blob/main/pydisney/disneyplus_api.py#L22-L26
 
