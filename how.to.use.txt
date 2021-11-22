@@ -1,13 +1,3 @@
-Replace US in these lines with your country code, for example for France replace "region/US" with "region/FR".
-
-https://github.com/Essam3152/DSNP/blob/main/pydisney/disneyplus_api.py#L22-L26
-
-If you changed the country IP using a VPN delete the file token.ini before starting to download the video, 
-and change the country code in disneyplus_api.py.
-
-This script may not work with some TV shows.
-
-
 1. Install python 3.10.0, be sure to add python to PATH while installing it
 
 https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe
@@ -91,4 +81,11 @@ For downloading the audio in 2 channels only use
 disneyplus.py --nv --ns --keep --url https://www.disneyplus.com/es-es/series/loki/6pARMvILBGzF -s 1 -e 1 --alang eng --only-2ch-audio
 
 
+Replace US in these lines with your country code, for example for France replace "region/US" with "region/FR".
 
+https://github.com/Essam3152/DSNP/blob/main/pydisney/disneyplus_api.py#L22-L26
+
+If you changed the country IP using a VPN delete the file token.ini before starting to download the video, 
+and change the country code in disneyplus_api.py.
+
+This script may not work with some TV shows.
