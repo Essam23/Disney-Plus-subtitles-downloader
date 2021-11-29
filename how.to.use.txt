@@ -20,7 +20,7 @@ disneyplus.py --nv --na --keep --url https://www.disneyplus.com/es-es/series/lok
 
 Language codes
 
-https://github.com/Essam21/Disney-Plus-subtitles-downloader/blob/main/pydisney/disneyplus_muxer.py#L105-L190
+https://github.com/Essam23/Disney-Plus-subtitles-downloader/blob/main/pydisney/disneyplus_muxer.py#L105-L190
 
 For downloading the subtitles of all the seasons use
 
@@ -29,7 +29,7 @@ disneyplus.py --nv --na --all-season --keep --url https://www.disneyplus.com/es-
 
 Replace US in these lines with your country code, for example for France replace "region/US" with "region/FR".
 
-https://github.com/Essam21/Disney-Plus-subtitles-downloader/blob/main/pydisney/disneyplus_api.py#L22-L26
+https://github.com/Essam23/Disney-Plus-subtitles-downloader/blob/main/pydisney/disneyplus_api.py#L22-L26
 
 If you changed the country IP using a VPN delete the file token.ini before starting to download the subtitles, 
 and change the country code in disneyplus_api.py.
